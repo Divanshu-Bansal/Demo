@@ -8,7 +8,7 @@ Pipeline
 		{
 			steps
 			{
-				bat 'mvn clean package install'
+				echo 'building the project'
 			}	
 		}
 	}
